@@ -14,9 +14,9 @@ constexpr int HEIGHT = 4;
 constexpr int SIZE = WIDTH*HEIGHT;
 
 constexpr int MIN =   0;
-constexpr int MAX =  15;
+constexpr int MAX =  20;
 
-constexpr int POPULATION =  ( 1 << 10 );
+constexpr int POPULATION =  ( 1 << 12 );
 //constexpr int BEST       =  ( 1 <<  4 );
 
 struct Genotype {
